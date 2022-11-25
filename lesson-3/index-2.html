@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head >
+  <meta charset="utf-8">
+  <title> ZOO </title>
+ </head>
+<body>
+<h2>Форма заявки на работу в зоопарке</h2>
+<em>Пожалуйста, заполните форму. Обязательные поля помечены<font color="#FF0000">&#42;</font></em>
+	 <form method="get">
+	 <table width="450px">
+	 <tr>
+	 <td>
+	 <fieldset>
+	 <legend> <b>Контактная информация </b></legend>
+	 <table>
+	 <tr>
+	 <td width="100"><label for="name"> Имя<font color="#FF0000">&#42;</font> </label></td>
+	 <td><input type="text" id="name" name="user" required placeholder="Введите имя"> </td>
+	 </tr>
+	 <tr>
+	 <td><label for="tel">Телефон </label></td>
+	 <td><input id="tel" type="tel" Name="number" placeholder="Введите номер телефона"></td>
+	 </tr>
+	 <tr>
+	 <td><label for="mail"> Email<font color="#FF0000">&#42;</font> </label></td>
+	 <td><input id="mail" type="email" Name="email" required placeholder="Введите email"></td>
+	 </tr>
+	 </table>
+	 </fieldset>
+	     <fieldset>
+	     <legend> <b> Персональная информация </b> </legend>
+		 <table>
+		 <tr>
+	     <td width="100"><label for="age">Возраст<font color="#FF0000">&#42;</font> </label></td>
+		 <td><input type="text" required  id="age" name="age"></td>
+		 </tr>
+		 <tr>
+		 <td><label for="gender">Пол</label></td>
+		 <td><select id="gender" name="gen"> 
+		 <option id="gen" value="Женщина">Женщина</option>
+		 <option id="gen" value="Мужчина">Мужчина</option> </select></td>
+		 </tr>
+		 <tr>
+		 <td><label for="comment"> Перечислите личные качества </label></td>
+		 <td><textarea id="comment"></textarea></td>
+		 </tr>
+		 </table>
+		 </fieldset>
+	 <fieldset>
+	 <legend> <b> Выберете ваших любимых животных </b> </legend>
+	 <table width="100%">
+	 <tr>
+	 <td><input type="checkbox" name="zebra"> Зебра</td>
+	 <td><input type="checkbox" name="cat">Кошак</td>
+	 <td><input type="checkbox" name="snake">Анаконда</td>
+	 <td><input type="checkbox" name="human">Человек</td>
+	 </tr>
+	 <tr>
+	 <td><input type="checkbox" name="elefant">Слон	</td>
+	 <td><input type="checkbox" name="antelope">Антилопа</td>
+	 <td><input type="checkbox" name="pigeon">Голубь</td>
+	 <td><input type="checkbox" name="crab">Краб</td>
+	 </tr>
+	 </table>
+	 </fieldset>
+	 </td>
+	 </tr>
+	 </table>
+	 <input type="submit" value="Отправить информацию"> 
+	 </form>
+</body>
+</html>
