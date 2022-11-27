@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head >
+  <meta charset="utf-8">
+  <title> ZOO </title>
+  <style>
+    em{
+        display: inline-block;
+        margin-bottom: 13px;
+    }
+    div {
+        border: solid 1px black;
+        width:420px;
+        margin-bottom: 19px;
+        padding: 10px;
+    }
+    span.star{
+        color:red
+    }
+    span.h{
+        display:inline-block;
+        font-weight: bold;
+        position:relative;
+        left:15px; top:-20px;
+        background-color: white;
+    }
+    span.f{
+        display:inline-block;
+        width: 100px;
+        margin-bottom: 10px; 
+    }
+    table{
+        width: 100%;
+    }
+  </style>
+ </head>
+<body>
+<h2>Форма заявки на работу в зоопарке</h2>
+<em>Пожалуйста, заполните форму. Обязательные поля помечены<span class="star">&#42;</span></em><br>
+	 <form method="get">
+	     <div>
+         <span class="h">Контактная информация </span><br>
+	     <label for="name"> <span class="f">Имя<span class="star">&#42;</span></span> </label>
+	     <input type="text" id="name" name="user" required placeholder="Введите имя"><br>
+	     <label for="tel"><span class="f">Телефон</span> </label>
+	     <input id="tel" type="tel" Name="number" placeholder="Введите номер телефона"><br>
+	     <label for="mail"> <span class="f">Email<span class="star">&#42;</span></span> </label>
+	     <input id="mail" type="email" Name="email" required placeholder="Введите email">
+         </div>
+	     <div>
+	     <span class="h"> Персональная информация </span><br>
+	     <label for="age"><span class="f">Возраст<span class="star">&#42;</span> </span></label>
+		 <input type="text" required  id="age" name="age"><br>
+		 <label for="gen"><span class="f">Пол</span></label>
+		 <select id="gen" name="gender"> 
+		 <option  value="Женщина">Женщина</option>
+		 <option  value="Мужчина">Мужчина</option> </select><br>
+		 <label for="comment"> <span class="f">Перечислите личные качества </span></label>
+		 <textarea id="comment"></textarea>
+         </div>
+	 <div>
+	 <span class="h"> Выберете ваших любимых животных </span>
+     <table>
+        <tr>
+	         <td><input type="checkbox" name="zebra"> Зебра</td>
+	         <td><input type="checkbox" name="cat">Кошак</td>
+	         <td><input type="checkbox" name="snake">Анаконда</td>
+	         <td><input type="checkbox" name="human">Человек </td>
+        </tr>
+        <tr>
+	 <td><input type="checkbox" name="elefant">Слон	</td>
+	 <td><input type="checkbox" name="antelope">Антилопа </td>
+	 <td><input type="checkbox" name="pigeon">Голубь </td>
+	 <td><input type="checkbox" name="crab">Краб </td>
+         </tr>
+     </table>
+     </div>
+	 <input type="submit" value="Отправить информацию">
+	 </form>
+</body>
+</html>
