@@ -39,13 +39,11 @@ h2::after {
 
 ul {
     display:grid;
-   margin-left: auto;
-   margin-right: 0;
-   position:absolute;
-   width: 730px;
-   height: 388px;
-   left: 765px;
-   top: 131px;
+    position:absolute;
+    width: 730px;
+    height: 388px;
+    left: 765px;
+    top: 131px;
 }
 
 li {
