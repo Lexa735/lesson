@@ -39,7 +39,8 @@ h2::after {
 
 ul {
     display:grid;
-    position:absolute;
+    position: absolute;
+    margin-right: 0;
     width: 730px;
     height: 388px;
     left: 765px;
