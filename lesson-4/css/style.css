@@ -38,13 +38,11 @@ h2::after {
 }
 
 ul {
-    display:grid;
-    position: absolute;
-    margin-right: 0;
-    width: 730px;
-    height: 388px;
-    left: 765px;
-    top: 131px;
+   display:grid;
+   align-items:end;
+   margin-left: auto;
+   width: 730px;
+   height: 388px;
 }
 
 li {
