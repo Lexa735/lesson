@@ -63,24 +63,18 @@ p.title {
     position: absolute;
     left: 680px;
     top:115px;
+    font: 500 50px/59px "roboto", sans-serif;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 59px;
 }
 
 p.content {
     position:absolute;
     left: 680px;
     top: 191px;
+    font: 400 20px/140% "roboto", sans-serif;
     width: 550px;
     height: 230px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
 }
 
 ul {
@@ -88,53 +82,39 @@ ul {
     left: 680px;
     top: 444px;
     list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-line-height: 140%;
+    font: 500 20px/140% "roboto", sans-serif;
 }
 
-button {
+.link {
     position: absolute;
     width: 211px;
     height: 57.67px; 
     background: #408858;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
+    font: 400 24px/220% "roboto", sans-serif;
     color:white;
     left: 680px;
     top: 549px;
+    text-align: center;
+    text-decoration: none;
 }
 
-button:hover {
+.link:hover {
     position: absolute;
     width: 215px;
     height: 59px; 
     background: #408858;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 120%;
+    font: 400 22px/250% "roboto", sans-serif;
     color:white;
     left: 678px;
     top: 547px;
 }
 
-button:active {
+.link:active {
     position: absolute;
     width: 211px;
     height: 57.67px; 
+    font: 400 24px/220% "roboto", sans-serif;
     background: #408858;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
     color: white;
     left: 680px;
     top: 549px;
