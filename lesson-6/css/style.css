@@ -64,8 +64,6 @@ p.title {
     left: 680px;
     top:115px;
     font: 500 50px/59px "roboto", sans-serif;
-    font-family: 'Roboto';
-    font-style: normal;
 }
 
 p.content {
@@ -99,23 +97,17 @@ ul {
 }
 
 .link:hover {
-    position: absolute;
     width: 215px;
     height: 59px; 
-    background: #408858;
     font: 400 22px/250% "roboto", sans-serif;
-    color:white;
     left: 678px;
     top: 547px;
 }
 
 .link:active {
-    position: absolute;
     width: 211px;
     height: 57.67px; 
     font: 400 24px/220% "roboto", sans-serif;
-    background: #408858;
-    color: white;
     left: 680px;
     top: 549px;
 }
