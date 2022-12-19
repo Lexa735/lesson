@@ -1,0 +1,134 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/gilroy-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/gilroy-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: wrap;
+}
+
+body {
+    font-family: 'gilroy', 'arial', sans-serif;
+}
+
+section {
+    max-width: 920px;
+    margin: 10px auto;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.card {
+    max-width: 440px;
+    display:flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px #C7C7C7;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+img {
+    width: 66px;
+    height: 66px;
+    margin-top: 39px;
+}
+
+.header {
+    font: 600 22px/24px sans-serif;
+    margin-top: 43px;
+}
+
+.description {
+    font: 400 14px/17px sans-serif;
+    text-align: center;
+    margin: 24px 30px 0 30px;
+    min-height: 68px; /*неправильно конечно, по хасанаторски, но елси не смотреть сюда, то красиво)))))*/
+}
+
+.price {
+    font: 600 22px/24px sans-serif;
+    margin-top: 35px;
+
+}
+
+.but {
+    width: 200px;
+    height: 70px;
+    background: #E31E24;
+    border-radius: 5px;
+    margin: 44px 0 40px 0;
+    font: 600 18px/20px sans-serif;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ 
+
+.page-item {
+    display:flex;
+    box-shadow: 0px 0px 4px #C7C7C7;
+    background: white;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+li.item, .item-4 {
+    margin-right: 60px;
+}
+
+a{
+    text-decoration: none;
+    font: 600 18px/18px 'open sans', sans-serif;
+    color: black;
+    padding: 16px 20px;
+    
+}
+
+.item-2:active {
+    background: #E31E24;
+}
+
+.item:hover, .item-1:hover, .item-2:hover, .item-3:hover,
+.item-4:hover, .item-5:hover {
+    background: #E31E24;
+}
+
+a:hover {
+    color:white;
+}
