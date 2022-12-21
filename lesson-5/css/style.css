@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font face {
+    font-family: "Montserrat";
+    src: url("./fonts/static/montserrat-medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font face {
+    font-family: "Montserrat";
+    src: url("./fonts/static/montserrat-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "montserrat", "arial", sans-serif;
+}
+
+main.mrt {
+    width: 1220px;
+    height:669px ;
+    margin:auto;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color:#E31E24;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+}
+
+span.title {
+    color:#2753A2;
+}
+
+p.subtitle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 26px;
+    line-height: 31.2px;
+}
+
+section {
+    display:flex;
+    justify-content: space-between;
+}
+div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(39, 83, 162, 0.25);
+    border-radius: 10px;
+    width: 390px;
+    height: 473px;
+    background-color: white;
+}
+
+svg { 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p.neck {
+    color:#2753A2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.625em;
+    line-height: 31.69px;
+    margin-bottom: 10px;
+}
+p.content {
+    text-align: center;
+    font-weight:500;
+    font-size: 1.25em;
+    line-height: 28px;
+    width: 350px;
+}
+
+p.breast {
+    color:#2753A2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 31.69px;
+    margin-bottom: 10px;
+}
+
+p.content2 {
+    text-align: center;
+    font-weight:500;
+    font-size: 1.25rem;
+    line-height: 28px;
+    width: 350px;
+}
+
+p.lumbar {
+    color:#2753A2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31.69px;
+    margin-bottom: 10px;
+}
+
+p.content3 {
+    text-align: center;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 28px;
+    width: 350px;
+}
+
+div:hover {
+    transform: scale(1.1)
+}
