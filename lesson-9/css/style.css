@@ -1,0 +1,171 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "candal";
+    src: url("../fonts/candal/candal-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display:wrap;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../fonts/static/Montserrat-LightItalic.ttf') format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/static/Montserrat-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: wrap;
+}
+
+
+body {
+    max-width: 1718px;
+    background: #1E1E1E;
+    background-image: url(../image/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "montserrat", "candal", "arial", sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    border-bottom: 1px solid white;
+    padding: 15px 0 15px;
+    margin: 10px 12.5% 20px 12.5%;
+
+}
+.mask, .ndelbrot {
+    height: 23px;
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.list:last-child {
+    padding-right: 30px;
+}
+
+.list-menu {
+    padding-left: 30px;
+}
+
+.link-menu, .link-get, .link-mint {
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    font: 300 20px/25px "montserrat", sans-serif;
+}
+
+.link-menu:hover {
+    color:rgb(77, 148, 159);
+}
+
+.social {
+    width: 30px;
+}
+
+.wallet {
+    display: flex;
+
+}
+
+.noname {
+    height: 53px;
+    margin-right: 5px;
+}
+
+.connect {
+    border: 1px solid white;
+    padding: 13px 24px;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text {
+    margin-top: 129px;
+    font:300 14px/18px "montserrat", sans-serif;
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+.title {
+    margin-top:5px;
+    font:400 60px/78px "candal", sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.nft {
+    color:red;
+}
+
+.text-2 {
+    margin: 30px 0 100px 0;
+    font:300 20px/26px "montserrat", sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.link-get {
+    border: 1px solid red;
+    color:red;
+    font: 400 30px/30px "candal", sans-serif;
+    padding: 14px 71px 16px 71px;
+}
+
+.link-mint {
+    background: #59FFB7;
+    border: 1px solid #59FFB7;
+    padding: 14px 60px 16px 60px;
+    font: 400 30px/30px "candal", sans-serif;
+    color: black;
+}
+.fog {
+    position: absolute;
+    top: 350px;
+    width:100%;
+}
+
+@media screen and (max-width: 805px) {
+    .menu {
+          margin: 10px 3% 20px 3% ; 
+    }
+
+    .socline {
+        position:absolute;
+        top: 97px;
+        left: 323px;
+    }
+
+   .wallet {
+        position:absolute;
+        top: 97px;
+        left: 18px;
+   }
+}
