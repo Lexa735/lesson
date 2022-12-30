@@ -1,0 +1,113 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #A9A9A9;
+}
+
+.content {
+    width: 500px;
+    background: #A9A9A9;
+    display: flex;
+    align-items: center;
+    margin: 300px auto;
+}
+
+.battery {
+    position: relative;
+    width: 318px;
+    height: 132px;
+    border: 5px solid #000;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.plus {
+    width: 25px;
+    height: 55px;
+    border: 5px solid #000;
+    background: #fff;
+    border-left: none;
+    border-radius: 0 9px 9px 0;
+}
+
+.greenblock {
+    position: absolute;
+    left: 5px;
+    top:3px;
+    width: 96px;
+    height: 116px;
+    background: #00FF00;
+    animation-name: energy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.greenblock1 {
+    position: absolute;
+    left: 106px;
+    top:3px;
+    width: 96px;
+    height: 116px;
+    background: #00FF00;
+    animation-name: energy1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.greenblock2 {
+    position: absolute;
+    left: 207px;
+    top:3px;
+    width: 96px;
+    height: 116px;
+    background: #00FF00;
+    animation-name: energy2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes energy {
+    from {
+      width: 0;
+    }
+    
+    33% {
+        width: 96px;
+    }
+    
+    to {
+       width: 96px;
+    }
+}
+
+@keyframes energy1 {
+    from {
+        width:0;
+      }
+      33% {
+        width:0;
+    }
+
+      66% {width: 96px;}
+  
+      to {
+         width: 96px;
+      }
+}
+
+@keyframes energy2 {
+    from {
+        width:0;
+      }
+
+      66% {width: 0;}
+  
+      to {
+         width: 96px;
+      }
+}
