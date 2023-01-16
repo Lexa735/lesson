@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title> lesson-11 </title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <script>
+        let name = prompt('Ваше имя');
+        let surname = prompt('Ваша фамилия');
+        let gender = confirm('Ваш пол мужской?');
+        if (gender == true) {
+          gender = 'Мужской'
+        }
+        else {
+         gender = 'Женский'
+        };
+        let age = +prompt ('Ваш возраст');
+        if ( gender == 'Мужской' && age >= 65 || gender == 'Женский' && age >= 60) {
+        age = 'Да'
+        }
+        else {
+        age = 'Нет'
+      };        
+        alert (`Имя: ${name}\nФамилия: ${surname}\nПол: ${gender}\nВы на пенсии: ${age}`);
+        
+    </script>
+
+</body>
+</html>    
