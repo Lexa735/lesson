@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title> lesson-15 </title>
+</head>
+<body>
+    <script>
+     function sumInput (){
+       let numArr = [];
+       while (true) {
+        let meaning = prompt ("Введите цифровое значение:");
+        if ( meaning === null || meaning ===""  || !isFinite(meaning)) 
+        break;
+       numArr.push (+meaning);
+       console.log (numArr);
+       }
+
+       let summ = 0;
+       for (let numm of numArr) {
+       summ += numm;
+       }
+       return summ;
+       }
+
+      console.log (sumInput());
+    </script>
+</body>
+</html>
